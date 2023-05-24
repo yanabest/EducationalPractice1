@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="45a0b0670a61444bb32f61827186db5a" Name="Diagram1">
+        <EntityTypeShape EntityType="PracticeEducationalModel.DeliveryPoint" Width="1.5" PointX="3" PointY="5" />
+        <EntityTypeShape EntityType="PracticeEducationalModel.DeliveryType" Width="1.5" PointX="3" PointY="7.375" />
+        <EntityTypeShape EntityType="PracticeEducationalModel.Order" Width="1.5" PointX="5.25" PointY="1" />
+        <EntityTypeShape EntityType="PracticeEducationalModel.OrderStatus" Width="1.5" PointX="3" PointY="9.75" />
+        <EntityTypeShape EntityType="PracticeEducationalModel.Product" Width="1.5" PointX="5.25" PointY="13.125" />
+        <EntityTypeShape EntityType="PracticeEducationalModel.ProductOrder" Width="1.5" PointX="7.5" PointY="1.5" />
+        <EntityTypeShape EntityType="PracticeEducationalModel.ProductType" Width="1.5" PointX="3" PointY="12.875" />
+        <EntityTypeShape EntityType="PracticeEducationalModel.Provider" Width="1.5" PointX="3" PointY="15.25" />
+        <EntityTypeShape EntityType="PracticeEducationalModel.Role" Width="1.5" PointX="0.75" PointY="1.875" />
+        <EntityTypeShape EntityType="PracticeEducationalModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="5.75" />
+        <EntityTypeShape EntityType="PracticeEducationalModel.User" Width="1.5" PointX="3" PointY="1.125" />
+        <AssociationConnector Association="PracticeEducationalModel.FK_Order_DeliveryPoint" />
+        <AssociationConnector Association="PracticeEducationalModel.FK_Order_DeliveryType" />
+        <AssociationConnector Association="PracticeEducationalModel.FK_Order_OrderStatus" />
+        <AssociationConnector Association="PracticeEducationalModel.FK_Order_User" />
+        <AssociationConnector Association="PracticeEducationalModel.FK_ProductOrder_Order" />
+        <AssociationConnector Association="PracticeEducationalModel.FK_Product_ProductType" />
+        <AssociationConnector Association="PracticeEducationalModel.FK_Product_Provider" />
+        <AssociationConnector Association="PracticeEducationalModel.FK_ProductOrder_Product" />
+        <AssociationConnector Association="PracticeEducationalModel.FK_User_Role" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
